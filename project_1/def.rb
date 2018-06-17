@@ -4,7 +4,7 @@ def greating_area x, y
 	puts "======================="
 	for i in (0...y) do
 		for j in (0...x) do
-			@arr[i] = (0...x).to_a 
+			@arr[i] = (0...x).to_a
 		end
 	end
 end
@@ -24,3 +24,5 @@ end
 
 start_game
 show_area
+
+puts "#{@arr}"
